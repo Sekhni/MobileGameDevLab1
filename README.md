@@ -1,4 +1,4 @@
-# [Endless Runner] — Option [1-5]
+# Endless Runner — Option 
 
 ## Device
 - Phone: samsung SM-S901B
