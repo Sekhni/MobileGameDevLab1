@@ -4,3 +4,10 @@
 - Got Unity 6.6 + Android Build Support installed, phone authorized via adb.
 - Built and sideloaded a dev APK successfully, confirmed [Boot] log line.
 - Issue: needed to run adb from inside the platform-tools folder / correct project directory to avoid path errors.
+
+
+## Week 2 - Profiler capture (frame 545, active gameplay)
+- CPU main thread time (typical frame): ~6.15ms
+- SetPass calls: 20
+- Triangles: 1.7k
+- GC allocated in frame: 51 B (3 allocations)

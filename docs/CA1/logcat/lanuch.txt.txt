@@ -1,0 +1,761 @@
+0001/01/01 00:00:00.000 -1 -1 Info  --------- beginning of main
+2026/05/10 22:05:03.069 20970 20970 Info i.mobilegamedev Late-enabling -Xcheck:jni
+2026/05/10 22:05:03.092 20970 20970 Info i.mobilegamedev Using CollectorTypeCMC GC.
+2026/05/10 22:05:03.101 20970 20970 Debug nativeloader Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+2026/05/10 22:05:03.105 20970 20970 Debug ActivityThread setConscryptValidator
+2026/05/10 22:05:03.105 20970 20970 Debug ActivityThread setConscryptValidator - put
+2026/05/10 22:05:03.193 20970 20970 Debug nativeloader Configuring clns-9 for other apk /data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/lib/arm64:/data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.ahmedsekhni.mobilegamedev
+2026/05/10 22:05:03.199 20970 20970 Verbose GraphicsEnvironment Currently set values for:
+2026/05/10 22:05:03.199 20970 20970 Verbose GraphicsEnvironment   angle_gl_driver_selection_pkgs=[]
+2026/05/10 22:05:03.199 20970 20970 Verbose GraphicsEnvironment   angle_gl_driver_selection_values=[]
+2026/05/10 22:05:03.199 20970 20970 Verbose GraphicsEnvironment com.ahmedsekhni.mobilegamedev is not listed in per-application setting
+2026/05/10 22:05:03.199 20970 20970 Verbose GraphicsEnvironment ANGLE allowlist from config: 
+2026/05/10 22:05:03.199 20970 20970 Verbose GraphicsEnvironment com.ahmedsekhni.mobilegamedev is not listed in ANGLE allowlist or settings, returning default
+2026/05/10 22:05:03.200 20970 20970 Verbose GraphicsEnvironment App is not on the allowlist for updatable production driver.
+2026/05/10 22:05:03.248 20970 20970 Debug nativeloader Load /data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/lib/arm64/libgame.so using class loader ns clns-9 (caller=/data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk!classes2.dex): ok
+2026/05/10 22:05:03.248 20970 20970 Debug GameActivity GameActivity_register
+2026/05/10 22:05:03.257 20970 20970 Debug AppCompatDelegate Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2026/05/10 22:05:03.261 20970 20970 Error ashmem Pinning is deprecated since Android Q. Please use trim or other methods.
+2026/05/10 22:05:03.267 20970 20970 Debug gti.InputConnection InputConnection created
+2026/05/10 22:05:03.267 20970 20970 Debug gti.InputConnection setEditorInfo
+2026/05/10 22:05:03.270 20970 20970 Debug CompatChangeReporter Compat change id reported: 377864165; UID 10335; state: ENABLED
+2026/05/10 22:05:03.272 20970 20970 Debug DesktopModeFlags Toggle override initialized to: OVERRIDE_UNSET
+2026/05/10 22:05:03.274 20970 20970 Info DecorView setWindowBackground: isPopOver=false color=ff000000 d=android.graphics.drawable.ColorDrawable@d99a221
+2026/05/10 22:05:03.278 20970 20970 Info i.mobilegamedev hiddenapi: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app) using reflection: allowed
+2026/05/10 22:05:03.278 20970 20970 Info i.mobilegamedev hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app) using reflection: allowed
+2026/05/10 22:05:03.282 20970 20970 Debug nativeloader Load /data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/lib/arm64/libmain.so using class loader ns clns-9 (caller=/data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk): ok
+2026/05/10 22:05:03.296 20970 20970 Info IL2CPP JNI_OnLoad
+2026/05/10 22:05:03.296 20970 20970 Verbose Unity Context Type: GameActivity
+2026/05/10 22:05:03.297 20970 20970 Debug Unity CommandLine:  
+2026/05/10 22:05:03.302 20970 20970 Debug AudioSystem onNewService: media.audio_policy service obtained 0xb40000753a3f73a0
+2026/05/10 22:05:03.302 20970 20970 Debug AudioSystem getService: checking for service media.audio_policy: 0xb40000753a3f73a0
+2026/05/10 22:05:03.307 20970 20970 Info GameActivity Looking for library libgame.so
+2026/05/10 22:05:03.307 20970 20970 Info GameActivity Found library libgame.so. Loading...
+2026/05/10 22:05:03.308 20970 20970 Debug GameActivity SDK version: 36
+2026/05/10 22:05:03.308 20970 20987 Info Unity UnityApplication::CreateInstance
+2026/05/10 22:05:03.308 20970 20987 Info Unity GameActivity Package Version '4.4.0'
+2026/05/10 22:05:03.309 20970 20987 Info Unity Starting Game Loop
+2026/05/10 22:05:03.317 20970 20987 Info Unity Handle cmd APP_CMD_START(11)
+2026/05/10 22:05:03.318 20970 20970 Info Unity onResume
+2026/05/10 22:05:03.318 20970 20970 Info Unity resumeUnity
+2026/05/10 22:05:03.324 20970 20987 Info Unity Handle cmd APP_CMD_RESUME(12)
+2026/05/10 22:05:03.329 20970 20970 Debug ViewRootImpl desktopMode is false
+2026/05/10 22:05:03.330 20970 20970 Info ViewRootImpl dVRR is disabled
+0001/01/01 00:00:00.000 -1 -1 Info  --------- beginning of system
+2026/05/10 22:05:03.331 20970 20970 Debug InsetsController Setting requestedVisibleTypes to -16 (was -9)
+2026/05/10 22:05:03.331 20970 20970 Info InsetsController setRequestedVisibleTypes: visible=false, mask=statusBars navigationBars captionBar, host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity, from=android.view.InsetsController.controlAnimationUnchecked:1604 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 android.view.InsetsController.hide:1540 android.view.InsetsController.hide:1450 android.view.PendingInsetsController$HideRequest.replay:277 android.view.PendingInsetsController.replayAndAttach:192 android.view.ViewRootImpl.setView:1948 android.view.WindowManagerGlobal.addView:604 android.view.WindowManagerImpl.addView:158 
+2026/05/10 22:05:03.332 20970 20990 Info i.mobilegamedev [HIDL_FETCH_IMapper] android.hardware.graphics.mapper@4.0: Loaded Mapper successfully.
+2026/05/10 22:05:03.335 20970 20970 Debug InputTransport Input channel constructed: '110a284', fd=114
+2026/05/10 22:05:03.336 20970 20970 Info InsetsController onStateChanged: host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333 V 27 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1b840001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {1b840005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {7de00000 mType=statusBars mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+2026/05/10 22:05:03.337 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf synced displayState. AttachInfo displayState=2
+2026/05/10 22:05:03.337 20970 20970 Debug InputTransport setImprovementEvent.. GameApp 1 1  428.625  424.542 11282379.000 4750.955 3358.925
+2026/05/10 22:05:03.338 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf setView = com.android.internal.policy.DecorView@cea933a IsHRR=false mFlingFrameRateChange=0 TM=true
+2026/05/10 22:05:03.338 20970 20970 Info IDS_TAG Clearing training data of android.app.Application@49adf1f
+2026/05/10 22:05:03.338 20970 20970 Info IDS_TAG Starting IDS observe window
+2026/05/10 22:05:03.338 20970 20970 Info IDS_TAG Getting Shared Preference for android.app.Application@49adf1f uid = 10335
+2026/05/10 22:05:03.340 20970 20970 Info IDS_TAG App android.app.Application@49adf1f has not finished training
+2026/05/10 22:05:03.340 20970 20970 Info IDS_TAG Closing IDS observe window
+2026/05/10 22:05:03.340 20970 20970 Info IDS_TAG Getting Shared Preference for android.app.Application@49adf1f uid = 10335
+2026/05/10 22:05:03.341 20970 20970 Info IDS_TAG IDS count updated to 1 for android.app.Application@49adf1f
+2026/05/10 22:05:03.343 20970 20970 Info SV[86161262 UnityPlayerGameActivity] onWindowVisibilityChanged(0) true com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{522b76e V.E...... ......I. 0,0-0,0 #7f080125 app:id/unitySurfaceView} of VRI[UnityPlayerGameActivity]@f79a1cf
+2026/05/10 22:05:03.343 20970 20970 Debug SurfaceView 86161262 updateSurface: has no frame
+2026/05/10 22:05:03.344 20970 20970 Verbose GameActivity onImeInsetsChanged from Text Listener
+2026/05/10 22:05:03.344 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+2026/05/10 22:05:03.352 20970 20970 Info BLASTBufferQueue_Java new BLASTBufferQueue, mName= VRI[UnityPlayerGameActivity]@f79a1cf mNativeObject= 0xb4000074ca3c50f0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3585 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 android.view.Choreographer.doCallbacks:1367 android.view.Choreographer.doFrame:1292 android.view.Choreographer$FrameDisplayEventReceiver.run:1870 
+2026/05/10 22:05:03.352 20970 20970 Info BLASTBufferQueue_Java update, w= 1080 h= 2340 mName = VRI[UnityPlayerGameActivity]@f79a1cf mNativeObject= 0xb4000074ca3c50f0 sc.mNativeObject= 0xb40000747a3c7bd0 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3590 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+2026/05/10 22:05:03.354 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=7 res=0x3 s={true 0xb4000074aa3dbf60} ch=true seqId=0
+2026/05/10 22:05:03.354 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf performConfigurationChange setNightDimText nightDimLevel=0
+2026/05/10 22:05:03.355 20970 20970 Verbose GameActivity onImeInsetsChanged from Text Listener
+2026/05/10 22:05:03.355 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+2026/05/10 22:05:03.356 20970 20970 Debug SurfaceView 86161262 updateSurface: has no frame
+2026/05/10 22:05:03.356 20970 20970 Info SV[86161262 UnityPlayerGameActivity] windowStopped(false) true com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{522b76e V.E...... ......ID 0,0-1080,2340 #7f080125 app:id/unitySurfaceView} of VRI[UnityPlayerGameActivity]@f79a1cf
+2026/05/10 22:05:03.356 20970 20970 Debug SurfaceView 86161262 updateSurface: has no frame
+2026/05/10 22:05:03.356 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:03.356 20970 20987 Info Unity Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+2026/05/10 22:05:03.356 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+2026/05/10 22:05:03.356 20970 20970 Info SurfaceView 86161262 Changes: creating=true format=true size=true visible=true alpha=false hint=false left=true top=true z=false attached=true lifecycleStrategy=false
+2026/05/10 22:05:03.358 20970 20970 Info BLASTBufferQueue_Java new BLASTBufferQueue, mName= 522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0 mNativeObject= 0xb4000074ca3e8320 caller= android.view.SurfaceView.createBlastSurfaceControls:1781 android.view.SurfaceView.updateSurface:1450 android.view.SurfaceView.lambda$new$0:280 android.view.SurfaceView.$r8$lambda$NfZyM_TG8F8lqzaOVZ7noREFjzU:0 android.view.SurfaceView$$ExternalSyntheticLambda1.onPreDraw:0 android.view.ViewTreeObserver.dispatchOnPreDraw:1229 android.view.ViewRootImpl.performTraversals:5448 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+2026/05/10 22:05:03.359 20970 20970 Info BLASTBufferQueue_Java update, w= 1080 h= 2340 mName = 522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0 mNativeObject= 0xb4000074ca3e8320 sc.mNativeObject= 0xb40000747a3c6a90 format= 4 caller= android.view.SurfaceView.createBlastSurfaceControls:1782 android.view.SurfaceView.updateSurface:1450 android.view.SurfaceView.lambda$new$0:280 android.view.SurfaceView.$r8$lambda$NfZyM_TG8F8lqzaOVZ7noREFjzU:0 android.view.SurfaceView$$ExternalSyntheticLambda1.onPreDraw:0 android.view.ViewTreeObserver.dispatchOnPreDraw:1229 
+2026/05/10 22:05:03.359 20970 20970 Info SurfaceView 86161262 Cur surface: Surface(name=null mNativeObject=0)/@0xe2905f4
+2026/05/10 22:05:03.359 20970 20970 Debug SurfaceComposerClient setCornerRadius ## 522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0#3010 cornerRadius=0.000000
+2026/05/10 22:05:03.359 20970 20970 Info SV[86161262 UnityPlayerGameActivity] pST: sr = Rect(0, 0 - 1080, 2340) sw = 1080 sh = 2340
+2026/05/10 22:05:03.359 20970 20970 Info SV[86161262 UnityPlayerGameActivity] onSSPAndSRT: pl = 0 pt = 0 sx = 1.0 sy = 1.0
+2026/05/10 22:05:03.359 20970 20970 Debug SurfaceView 86161262 performSurfaceTransaction UI Thread position = [0, 0, 1080, 2340] surfaceSize = 1080x2340
+2026/05/10 22:05:03.359 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:03.359 20970 20970 Info SV[86161262 UnityPlayerGameActivity] updateSurface: mVisible = true mSurface.isValid() = true
+2026/05/10 22:05:03.359 20970 20970 Info SV[86161262 UnityPlayerGameActivity] updateSurface: mSurfaceCreated = false surfaceChanged = true visibleChanged = true
+2026/05/10 22:05:03.359 20970 20970 Info SurfaceView 86161262 visibleChanged -- surfaceCreated
+2026/05/10 22:05:03.359 20970 20970 Info SV[86161262 UnityPlayerGameActivity] surfaceCreated 2 #8 com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{522b76e V.E...... ......ID 0,0-1080,2340 #7f080125 app:id/unitySurfaceView}
+2026/05/10 22:05:03.360 20970 20970 Info SurfaceView 86161262 surfaceChanged -- format=4 w=1080 h=2340
+2026/05/10 22:05:03.360 20970 20987 Info Unity Handle cmd APP_CMD_INIT_WINDOW(1)
+2026/05/10 22:05:03.360 20970 20970 Info SV[86161262 UnityPlayerGameActivity] surfaceChanged (1080,2340) 2 #8 com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{522b76e V.E...... ......ID 0,0-1080,2340 #7f080125 app:id/unitySurfaceView}
+2026/05/10 22:05:03.360 20970 20970 Info SurfaceView 86161262 surfaceRedrawNeeded
+2026/05/10 22:05:03.360 20970 20970 Info SurfaceView 86161262 finishedDrawing
+2026/05/10 22:05:03.360 20970 20970 Verbose SurfaceView Layout: x=0 y=0 w=1080 h=2340, frame=Rect(0, 0 - 1080, 2340)
+2026/05/10 22:05:03.360 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:03.360 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf Setup new sync=wmsSync-VRI[UnityPlayerGameActivity]@f79a1cf#1
+2026/05/10 22:05:03.360 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Creating new active sync group VRI[UnityPlayerGameActivity]@f79a1cf#2
+2026/05/10 22:05:03.367 20970 20970 Info BLASTBufferQueue [VRI[UnityPlayerGameActivity]@f79a1cf#0](f:0,a:0,s:0) onFrameAvailable the first frame is available
+2026/05/10 22:05:03.368 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportDrawFinished seqId=0
+2026/05/10 22:05:03.368 20970 20987 Info Unity MemoryManager: Using 'Dynamic Heap' Allocator.
+2026/05/10 22:05:03.368 20970 20987 Info Unity Mimalloc is enabled and will override the Dynamic Heap and Dual Thread (Main and MainThread) allocators.
+2026/05/10 22:05:03.368 20970 20987 Debug Unity [UnityMemory] Configuration Parameters - Can be set up in boot.config
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-temp-allocator-size-cloud-worker=32768"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-temp-allocator-size-audio-worker=65536"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-temp-allocator-size-preload-manager=262144"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-remapper-allocator-initial-capacity=32768"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-temp-allocator-size-gfx=262144"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-allocator-temp-initial-block-size-main=262144"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-temp-allocator-size-background-worker=32768"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-temp-allocator-size-job-worker=262144"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-bucket-allocator-granularity=16"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-bucket-allocator-bucket-count=8"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-bucket-allocator-block-size=4194304"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-bucket-allocator-block-count=1"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-main-allocator-block-size=16777216"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-thread-allocator-block-size=16777216"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-main-allocator-mimalloc-enabled=1"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-gfx-main-allocator-block-size=16777216"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-gfx-thread-allocator-block-size=16777216"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-cache-allocator-block-size=4194304"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-typetree-allocator-block-size=2097152"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-profiler-bucket-allocator-granularity=16"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-profiler-bucket-allocator-block-count=1"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-profiler-allocator-block-size=16777216"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-profiler-editor-allocator-block-size=1048576"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-temp-allocator-size-main=4194304"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-job-temp-allocator-block-size=2097152"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-job-temp-allocator-block-size-background=1048576"
+2026/05/10 22:05:03.368 20970 20987 Debug Unity     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+2026/05/10 22:05:03.375 20970 20970 Info InsetsController onStateChanged: host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333 V 27 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1b840001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {1b840005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {7de00000 mType=statusBars mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+2026/05/10 22:05:03.383 20970 20970 Info InsetsController controlAnimationUncheckedInner: Added types=statusBars navigationBars, animType=1, host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity, from=android.view.InsetsController.controlAnimationUnchecked:1608 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 
+2026/05/10 22:05:03.384 20970 20970 Info InsetsController onStateChanged: host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333 V 27 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1b840001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=false mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {1b840005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {7de00000 mType=statusBars mFrame=[0,0][1080,81] mVisible=false mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+2026/05/10 22:05:03.384 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+2026/05/10 22:05:03.384 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf handleResized mSyncSeqId = 0
+2026/05/10 22:05:03.384 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportNextDraw android.view.ViewRootImpl.handleResized:2983 android.view.ViewRootImpl.-$$Nest$mhandleResized:0 android.view.ViewRootImpl$W.resized:14082 android.app.servertransaction.WindowStateResizeItem.execute:93 android.app.servertransaction.WindowStateTransactionItem.execute:62 
+2026/05/10 22:05:03.386 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf Setup new sync=wmsSync-VRI[UnityPlayerGameActivity]@f79a1cf#3
+2026/05/10 22:05:03.386 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Creating new active sync group VRI[UnityPlayerGameActivity]@f79a1cf#4
+2026/05/10 22:05:03.388 20970 20987 Debug Unity Enabling Unity systrace
+2026/05/10 22:05:03.388 20970 20987 Debug Unity Starting Unity systrace
+2026/05/10 22:05:03.392 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportDrawFinished seqId=0
+2026/05/10 22:05:03.396 20970 20987 Info Unity SetGameState: isLoading: true, mode: UNKNOWN, label: -2, quality: -1
+2026/05/10 22:05:03.399 20970 20987 Debug Unity [VFS] Mount /data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk
+2026/05/10 22:05:03.400 20970 20987 Debug Unity Loading player data from /data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk/assets/bin/Data/data.unity3d
+2026/05/10 22:05:03.403 20970 20970 Info Unity windowFocusChanged: true
+2026/05/10 22:05:03.404 20970 20970 Debug InputMethodManagerUtils startInputInner - Id : 0
+2026/05/10 22:05:03.404 20970 20970 Info InputMethodManager startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+2026/05/10 22:05:03.405 20970 20987 Error Unity java.lang.ClassNotFoundException: Didn't find class "com.google.android.play.core.assetpacks.AssetPackManager" on path: DexPathList[[zip file "/data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk"],nativeLibraryDirectories=[/data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/lib/arm64, /data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]
+2026/05/10 22:05:03.407 20970 20970 Info InputMethodManager handleMessage: setImeVisibility visible=false
+2026/05/10 22:05:03.407 20970 20970 Debug InsetsController hide(ime(), fromIme=false)
+2026/05/10 22:05:03.407 20970 20970 Info ImeTracker com.ahmedsekhni.mobilegamedev:81f292fd: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026/05/10 22:05:03.409 20970 20987 Info Unity SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 7271mb
+2026/05/10 22:05:03.409 20970 20987 Info Unity SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+2026/05/10 22:05:03.410 20970 20980 Debug InputTransport Input channel constructed: 'ClientS', fd=126
+2026/05/10 22:05:03.410 20970 20987 Info Unity ApplicationInfo 'com.ahmedsekhni.mobilegamedev', Version '0.1.0', Min API Level '26', Target API Level '36'
+2026/05/10 22:05:03.410 20970 20987 Info Unity Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch, Version '6000.6.0f1 (f7f8ed4d1e24)', Build type 'Development', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+2026/05/10 22:05:03.410 20970 20987 Info Unity Device Model 'samsung SM-S901B', OS 'Android OS 16 (API 36)'
+2026/05/10 22:05:03.412 20970 20987 Debug Unity Determine if il2cpp resources need to be extracted:
+2026/05/10 22:05:03.412 20970 20987 Debug Unity     Guid in '/storage/emulated/0/Android/data/com.ahmedsekhni.mobilegamedev/files/il2cpp/unity.ver' is invalid, expected '097c3a19-67cf-46bb-843f-7bf33d63f775' was 'ca652a06-d406-4d36-9a54-7ffbde0fe5ab'
+2026/05/10 22:05:03.412 20970 20987 Debug Unity     Extracting il2cpp resources
+2026/05/10 22:05:03.423 20970 20970 Info BLASTBufferQueue_Java update, w= 1080 h= 2340 mName = VRI[UnityPlayerGameActivity]@f79a1cf mNativeObject= 0xb4000074ca3c50f0 sc.mNativeObject= 0xb40000747a3c7990 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+2026/05/10 22:05:03.423 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=4 res=0x0 s={true 0xb4000074aa3dbf60} ch=false seqId=0
+2026/05/10 22:05:03.424 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf updateBoundsLayer: t=android.view.SurfaceControl$Transaction@a31dac1 sc=Surface(name=Bounds for - com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity@0)/@0xa272266 frame=4
+2026/05/10 22:05:03.424 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:03.461 20970 20987 Debug Unity Unable to find library path for 'il2cpp.usym'.
+2026/05/10 22:05:03.514 20970 20987 Debug Unity Remaining time:29s
+2026/05/10 22:05:03.514 20970 20987 Debug Unity Found NO interfaces on host .
+2026/05/10 22:05:03.515 20970 20987 Debug Unity Player connection [493711385536]  Target information:
+2026/05/10 22:05:03.515 20970 20987 Debug Unity 
+2026/05/10 22:05:03.515 20970 20987 Debug Unity Player connection [493711385536] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+2026/05/10 22:05:03.515 20970 20987 Debug Unity 
+2026/05/10 22:05:03.515 20970 20987 Debug Unity Player connection [493711385536] Starting connection attempt to host, will retry for 10 seconds.
+2026/05/10 22:05:03.722 20970 20975 Info i.mobilegamedev Compiler allocated 5101KB to compile void android.view.ViewRootImpl.performTraversals()
+2026/05/10 22:05:03.737 20970 20970 Info InsetsController cancelAnimation: types=statusBars navigationBars, animType=1, host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity, from=android.view.InsetsController.notifyFinished:2006 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:82 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$cDFF0h4Ncq-8EXdGszv69jrUu7c:0 
+2026/05/10 22:05:03.738 20970 20998 Warn InteractionJankMonitor Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.ahmedsekhni.mobilegamedev
+2026/05/10 22:05:03.900 20970 20987 Debug Unity Player connection [493711385536] Successfully connected to host after 0 seconds.
+2026/05/10 22:05:03.966 20970 20987 Debug Unity CodeReloadManager initialized
+2026/05/10 22:05:03.966 20970 20987 Debug Unity InitializeScriptEngine OK (0x75f8b34e80)
+2026/05/10 22:05:03.966 20970 20987 Debug Unity [EGL] Attaching window :0xb4000074aa3dec80
+2026/05/10 22:05:03.974 20970 20987 Debug Unity Input System module state changed to: Initialized.
+2026/05/10 22:05:03.977 20970 20987 Info DisplayManager Implicitly registering for refresh rate
+2026/05/10 22:05:03.977 20970 20987 Debug Unity [Physics::Module] Initialized fallback backend.
+2026/05/10 22:05:03.977 20970 20987 Debug Unity [Physics::Module] Id: 0xdecafbad
+2026/05/10 22:05:03.978 20970 20987 Debug Unity Loading player data from assets/bin/Data/data.unity3d
+2026/05/10 22:05:03.979 20970 20987 Debug Unity PlayerInitEngineNoGraphics OK
+2026/05/10 22:05:03.979 20970 20987 Info Unity Company Name: DefaultCompany
+2026/05/10 22:05:03.979 20970 20987 Info Unity Product Name: MoblieGameDevLab1
+2026/05/10 22:05:03.979 20970 20987 Debug Unity AndroidGraphics::Startup window =  0xb4000074aa3dec80
+2026/05/10 22:05:03.979 20970 20987 Debug Unity [EGL] Attaching window :0xb4000074aa3dec80
+2026/05/10 22:05:03.981 20970 20987 Debug Unity [Subsystems] Discovering subsystems at path /data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk/assets/bin/Data/UnitySubsystems
+2026/05/10 22:05:03.982 20970 20987 Debug Unity GfxDevice: creating device client; kGfxThreadingModeThreaded
+2026/05/10 22:05:03.982 20970 20987 Error HardwareProfiles Status: Not active
+2026/05/10 22:05:03.982 20970 20987 Debug vulkan searching for layers in '/data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/lib/arm64'
+2026/05/10 22:05:03.983 20970 20987 Debug vulkan searching for layers in '/data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk!/lib/arm64-v8a'
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: count=14
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_debug_report [enabled=0, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_debug_utils [enabled=1, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_surface_maintenance1 [enabled=0, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_GOOGLE_surfaceless_query [enabled=0, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_android_surface [enabled=1, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+2026/05/10 22:05:03.983 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
+2026/05/10 22:05:03.983 20970 20987 Verbose XGL ----------------------------------------------------------------------
+2026/05/10 22:05:03.983 20970 20987 Verbose XGL SUMD version compiled date     = 2025-06-11 14:47 - KST
+2026/05/10 22:05:03.983 20970 20987 Verbose XGL SUMD version revision number   = 1fc295b0d2
+2026/05/10 22:05:03.983 20970 20987 Verbose XGL SUMD version info              = Driver version: 24.0.545, git hash: 1fc295b0d2
+2026/05/10 22:05:03.983 20970 20987 Verbose XGL ----------------------------------------------------------------------
+2026/05/10 22:05:03.983 20970 20987 Verbose XGL Entering: Create
+2026/05/10 22:05:03.987 20970 20970 Verbose GameActivity onImeInsetsChanged from Text Listener
+2026/05/10 22:05:03.989 20970 20987 Verbose XGL Exiting: Create
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0x0
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] Physical Device 0xb4000074ba401ba0 [0]: "Samsung Xclipse 920" deviceType=1 vendorID=144d deviceID=73a0
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [VULKAN] Android Device Info:
+2026/05/10 22:05:03.990 20970 20987 Debug Unity {"Vendor": "Samsung","Device Name": "Samsung Xclipse 920","Brand": "samsung","Product Name": "r0sxeea","Android OS Version": "16","Vulkan API Version": "Variant: 0 major.minor.patch:1.3.279","Driver Version": "100663841"}
+2026/05/10 22:05:03.990 20970 20987 Debug Unity Vulkan detection: 2
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: count=14
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_debug_report [enabled=0, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_debug_utils [enabled=1, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_surface_maintenance1 [enabled=0, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_GOOGLE_surfaceless_query [enabled=0, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_android_surface [enabled=1, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+2026/05/10 22:05:03.990 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
+2026/05/10 22:05:03.990 20970 20987 Verbose XGL ----------------------------------------------------------------------
+2026/05/10 22:05:03.990 20970 20987 Verbose XGL SUMD version compiled date     = 2025-06-11 14:47 - KST
+2026/05/10 22:05:03.990 20970 20987 Verbose XGL SUMD version revision number   = 1fc295b0d2
+2026/05/10 22:05:03.990 20970 20987 Verbose XGL SUMD version info              = Driver version: 24.0.545, git hash: 1fc295b0d2
+2026/05/10 22:05:03.990 20970 20987 Verbose XGL ----------------------------------------------------------------------
+2026/05/10 22:05:03.990 20970 20987 Verbose XGL Entering: Create
+2026/05/10 22:05:03.992 20970 20987 Verbose XGL Exiting: Create
+2026/05/10 22:05:03.992 20970 20987 Debug Unity [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0x0
+2026/05/10 22:05:03.992 20970 20987 Debug Unity [Vulkan init] Physical Device 0xb4000074ba401ba0 [0]: "Samsung Xclipse 920" deviceType=1 vendorID=144d deviceID=73a0
+2026/05/10 22:05:03.992 20970 20987 Debug Unity [Vulkan init] Selected physical device 0xb4000074ba401ba0
+2026/05/10 22:05:03.992 20970 20987 Debug Unity [Vulkan init] Graphics queue count=1
+2026/05/10 22:05:03.993 20970 20987 Debug nativeloader Load liblibswappywrapper.so using class loader ns clns-9 (caller=/data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk): dlopen failed: library "liblibswappywrapper.so" not found
+2026/05/10 22:05:03.994 20970 20987 Debug nativeloader Load /data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/lib/arm64/libswappywrapper.so using class loader ns clns-9 (caller=/data/app/~~gSn8jjRczIGm6bFRoi7gAQ==/com.ahmedsekhni.mobilegamedev-4k0NCKnpVxsdvOS7GlJOXA==/base.apk): ok
+2026/05/10 22:05:03.994 20970 20987 Info SwappyWrapper SwappyWrapperInit() succeeded. Build: Sat Sep 26 22:02:39 2026
+2026/05/10 22:05:03.994 20970 20987 Debug Unity SwappyWrapper: InitSwappyWrapper() succeeded.
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: count=146
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_buffer_marker [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_draw_indirect_count [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_gcn_shader [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_gpu_shader_half_float [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_gpu_shader_int16 [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_memory_overallocation_behavior [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_mixed_attachment_samples [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_shader_ballot [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_shader_core_properties [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_shader_core_properties2 [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_shader_early_and_late_fragment_tests [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_shader_explicit_vertex_parameter [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_shader_fragment_mask [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_shader_image_load_store_lod [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_shader_info [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_AMD_shader_trinary_minmax [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_ANDROID_external_memory_android_hardware_buffer [enabled=1, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_4444_formats [enabled=1, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_layout [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_border_color_swizzle [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_buffer_device_address [enabled=0, external=0]
+2026/05/10 22:05:03.994 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_calibrated_timestamps [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_color_write_enable [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_conditional_rendering [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_conservative_rasterization [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_custom_border_color [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_depth_clamp_zero_one [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_depth_clip_control [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_depth_clip_enable [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_descriptor_buffer [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_descriptor_indexing [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_device_address_binding_report [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_device_fault [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_device_memory_report [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_extended_dynamic_state [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_extended_dynamic_state2 [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_extended_dynamic_state3 [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_external_memory_acquire_unmodified [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_external_memory_dma_buf [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_external_memory_host [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_frame_boundary [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_global_priority [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_global_priority_query [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_graphics_pipeline_library [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_hdr_metadata [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_host_query_reset [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_image_2d_view_of_3d [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_image_drm_format_modifier [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_image_robustness [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_index_type_uint8 [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_inline_uniform_block [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_line_rasterization [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_load_store_op_none [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_memory_budget [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_non_seamless_cube_map [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_physical_device_drm [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_post_depth_coverage [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_primitive_topology_list_restart [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_private_data [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_provoking_vertex [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_queue_family_foreign [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_robustness2 [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_sample_locations [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_scalar_block_layout [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_separate_stencil_usage [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64 [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_shader_module_identifier [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_shader_stencil_export [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_subgroup_size_control [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_swapchain_maintenance1 [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_tooling_info [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_transform_feedback [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_vertex_input_dynamic_state [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_GOOGLE_decorate_string [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_GOOGLE_display_timing [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_GOOGLE_hlsl_functionality1 [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_16bit_storage [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_8bit_storage [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_acceleration_structure [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_bind_memory2 [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_buffer_device_address [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_copy_commands2 [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_create_renderpass2 [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_dedicated_allocation [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_deferred_host_operations [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_descriptor_update_template [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_device_group [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_draw_indirect_count [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_driver_properties [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_fence [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_fence_fd [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_memory [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_memory_fd [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_semaphore [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_semaphore_fd [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_fragment_shading_rate [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_get_memory_requirements2 [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_image_format_list [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_imageless_framebuffer [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_incremental_present [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_maintenance1 [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_maintenance2 [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_maintenance3 [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_multiview [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_pipeline_library [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_push_descriptor [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_ray_query [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_ray_tracing_pipeline [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_relaxed_block_layout [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_atomic_int64 [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_clock [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_draw_parameters [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_float16_int8 [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_float_controls [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_integer_dot_product [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_shared_presentable_image [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_spirv_1_4 [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_swapchain [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format [enabled=1, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_synchronization2 [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_timeline_semaphore [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_variable_pointers [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_vulkan_memory_model [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory [enabled=0, external=0]
+2026/05/10 22:05:03.995 20970 20987 Debug Unity [Vulkan init] extensions: name=VK_SEC_amigo_profiling [enabled=0, external=0]
+2026/05/10 22:05:03.996 20970 20987 Debug Unity Vulkan API version 1.1.0 (1.3.279 supported by driver, 1.1.0 requested)
+2026/05/10 22:05:03.996 20970 20987 Debug Unity Vulkan vendor=[Samsung] id=[144d]
+2026/05/10 22:05:03.996 20970 20987 Debug Unity Vulkan renderer=[Samsung Xclipse 920] id=[73a0]
+2026/05/10 22:05:03.996 20970 20987 Debug Unity Vulkan device type 1
+2026/05/10 22:05:03.996 20970 20987 Debug Unity Vulkan driverversion=[24.0.545 (0x06000221)] uint=[100663841]
+2026/05/10 22:05:03.996 20970 20987 Debug Unity Vulkan driverLibraryString=[Samsung Proprietary driver (21), Driver version: 24.0.545, git hash: 1fc295b0d2 ]
+2026/05/10 22:05:03.996 20970 20987 Debug Unity VK use pretransform: 1
+2026/05/10 22:05:04.001 20970 20987 Debug Unity Vulkan PSO: Cache data successfully loaded [size=50505,path=/storage/emulated/0/Android/data/com.ahmedsekhni.mobilegamedev/cache/vulkan_pso_cache.bin]
+2026/05/10 22:05:04.002 20970 20987 Debug Unity [EGL] Attaching window :0x0
+2026/05/10 22:05:04.003 20970 20987 Debug Unity AndroidDisplayManagerVulkan::AttachWindow(0xb4000074aa3dec80, 0)
+2026/05/10 22:05:04.003 20970 20987 Debug Unity InitializeOrResetSwapChain 1080x2340 hdr=0 samples=0
+2026/05/10 22:05:04.003 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:04.003 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:04.008 20970 21052 Debug AChoreographer Attaching thread to JVM for AChoreographer
+2026/05/10 22:05:04.011 20970 20987 Error SwappyDisplayManager dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376646346550192, -5476376650373167056]]"],nativeLibraryDirectories=[/system/lib64, /system/system_ext/lib64]]] couldn't find "libgame.so"
+2026/05/10 22:05:04.011 20970 21053 Info SwappyDisplayManager Starting looper thread
+2026/05/10 22:05:04.019 20970 20987 Verbose MediaRouter Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+2026/05/10 22:05:04.019 20970 20987 Info MediaRouter Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+2026/05/10 22:05:04.020 20970 20987 Debug Unity AndroidDisplayManagerVulkan::AttachWindow(0xb4000074aa3dec80, 0)
+2026/05/10 22:05:04.020 20970 20987 Debug Unity Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+2026/05/10 22:05:04.020 20970 20987 Debug Unity [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+2026/05/10 22:05:04.022 20970 20987 Debug AudioSystem onNewServiceWithAdapter: media.audio_flinger service obtained 0xb4000073da412ec0
+2026/05/10 22:05:04.023 20970 20987 Debug AudioSystem getService: checking for service media.audio_flinger: 0xb40000753a434fc0
+2026/05/10 22:05:04.023 20970 20987 Info AAudio AAudioStreamBuilder_openStream() called ----------------------------------------
+2026/05/10 22:05:04.023 20970 20987 Info AudioStreamBuilder rate   =  24000, channels  = 2, channelMask = 0x80000003, format   = 5, sharing = SH, dir = OUTPUT
+2026/05/10 22:05:04.023 20970 20987 Info AudioStreamBuilder devices = AUDIO_PORT_HANDLE_NONE, sessionId = 0, perfMode = 12, callback: ON with frames = 512
+2026/05/10 22:05:04.023 20970 20987 Info AudioStreamBuilder usage  =      0, contentType = 0, inputPreset = 0, allowedCapturePolicy = 0
+2026/05/10 22:05:04.023 20970 20987 Info AudioStreamBuilder privacy sensitive = false, opPackageName = (null), attributionTag = (null)
+2026/05/10 22:05:04.023 20970 20987 Debug AudioStreamBuilder build, global mmap policy is 0
+2026/05/10 22:05:04.024 20970 20987 Debug AudioStreamBuilder build, system mmap policy is 2
+2026/05/10 22:05:04.024 20970 20987 Debug AudioStreamBuilder build, final mmap policy is 2
+2026/05/10 22:05:04.024 20970 20987 Debug AudioStreamBuilder build, system mmap exclusive policy is 2
+2026/05/10 22:05:04.024 20970 20987 Debug AudioStreamBuilder build, final mmap exclusive policy is 2
+2026/05/10 22:05:04.024 20970 20987 Debug AudioStreamBuilder build() MMAP not used because sessionId specified.
+2026/05/10 22:05:04.024 20970 20987 Debug i.mobilegamedev PlayerBase::PlayerBase()
+2026/05/10 22:05:04.025 20970 20987 Debug AudioStreamTrack open(), request notificationFrames = 0, frameCount = 8192
+2026/05/10 22:05:04.029 20970 20987 Debug AudioTrack setVolume(1.000000, 1.000000) pid : 20970
+2026/05/10 22:05:04.029 20970 20987 Debug AudioStreamTrack open() flags changed from 0x00000004 to 0x00000000
+2026/05/10 22:05:04.029 20970 20987 Debug AudioStreamTrack open() perfMode changed from 12 to 10
+2026/05/10 22:05:04.029 20970 20987 Debug AAudioStream setState(s#1) from 0 to 2
+2026/05/10 22:05:04.030 20970 20987 Info AAudio AAudioStreamBuilder_openStream() returns 0 = AAUDIO_OK for s#1 ----------------
+2026/05/10 22:05:04.030 20970 20987 Debug AAudio AAudioStream_requestStart(s#1) called --------------
+2026/05/10 22:05:04.030 20970 20987 Debug AAudioStream setState(s#1) from 2 to 3
+2026/05/10 22:05:04.033 20970 20987 Debug AAudio AAudioStream_requestStart(s#1) returned 0 ---------
+2026/05/10 22:05:04.034 20970 20970 Debug MediaRouter onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+2026/05/10 22:05:04.035 20970 20970 Verbose MediaRouter Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+2026/05/10 22:05:04.047 20970 20995 Debug AudioStreamLegacy onAudioDeviceUpdate() devices 3 => 3
+2026/05/10 22:05:04.050 20970 21054 Debug AAudioStream setState(s#1) from 3 to 4
+2026/05/10 22:05:04.079 20970 20987 Debug Unity [Physics::Module] Selected backend.
+2026/05/10 22:05:04.079 20970 20987 Debug Unity [Physics::Module] Name: PhysX
+2026/05/10 22:05:04.079 20970 20987 Debug Unity [Physics::Module] Id: 0xf2b8ea05
+2026/05/10 22:05:04.079 20970 20987 Debug Unity [Physics::Module] SDK Version: 4.1.2
+2026/05/10 22:05:04.079 20970 20987 Debug Unity [Physics::Module] Integration Version: 1.0.0
+2026/05/10 22:05:04.079 20970 20987 Debug Unity [Physics::Module] Threading Mode: Multi-Threaded
+2026/05/10 22:05:04.135 20970 20987 Info IL2CPP Locale en-IE
+2026/05/10 22:05:04.146 20970 20987 Debug Unity PlayerInitEngineGraphics OK
+2026/05/10 22:05:04.156 20970 20987 Debug SensorManager registerListener :: 1, LSM6DSO Accelerometer, 200000, 0, 
+2026/05/10 22:05:04.157 20970 20987 Info Unity SetGameState: isLoading: false, mode: UNKNOWN, label: -1, quality: 0
+2026/05/10 22:05:04.157 20970 20987 Info Unity     HasWindow = 1, HasFocus = 0
+2026/05/10 22:05:04.157 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_RESIZED(3)
+2026/05/10 22:05:04.157 20970 20987 Debug Unity NativeWindow resized 1080x2340
+2026/05/10 22:05:04.157 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+2026/05/10 22:05:04.157 20970 20987 Info Unity Handle cmd APP_CMD_GAINED_FOCUS(7)
+2026/05/10 22:05:04.157 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+2026/05/10 22:05:04.158 20970 20987 Debug Unity InitializeOrResetSwapChain 1080x2340 hdr=0 samples=0
+2026/05/10 22:05:04.160 20970 21053 Info SwappyDisplayManager Terminating looper thread
+2026/05/10 22:05:04.160 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:04.160 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:04.170 20970 20987 Error SwappyDisplayManager dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376646346959216, -5476376650373202448]]"],nativeLibraryDirectories=[/system/lib64, /system/system_ext/lib64]]] couldn't find "libgame.so"
+2026/05/10 22:05:04.170 20970 21059 Info SwappyDisplayManager Starting looper thread
+2026/05/10 22:05:04.196 20970 20987 Info Unity SetGameState: isLoading: true, mode: UNKNOWN, label: 0, quality: 0
+2026/05/10 22:05:04.204 20970 21044 Info BLASTBufferQueue [522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0#1](f:0,a:0,s:0) onFrameAvailable the first frame is available
+2026/05/10 22:05:06.235 20970 20970 Debug GameActivity ************** mainWorkCallback *********
+2026/05/10 22:05:06.236 20970 20970 Debug gti.InputConnection setSoftKeyboardActive, active: false
+2026/05/10 22:05:06.245 20970 20987 Debug Unity UnloadTime: 2.986367 ms
+2026/05/10 22:05:06.249 20970 20970 Info ImeTracker com.ahmedsekhni.mobilegamedev:93212238: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+2026/05/10 22:05:06.252 20970 20970 Info InputMethodManager_LC hsifw() - flag : 0
+2026/05/10 22:05:06.252 20970 20970 Info InputMethodManager_LC hsifw() - mService.hideSoftInput
+2026/05/10 22:05:06.257 20970 20970 Debug InsetsController hide(ime(), fromIme=false)
+2026/05/10 22:05:06.258 20970 20970 Info ImeTracker com.ahmedsekhni.mobilegamedev:93212238: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026/05/10 22:05:06.259 20970 20970 Debug CompatChangeReporter Compat change id reported: 395521150; UID 10335; state: ENABLED
+2026/05/10 22:05:06.259 20970 20970 Debug InputMethodManagerUtils startInputInner - Id : 0
+2026/05/10 22:05:06.259 20970 20970 Info InputMethodManager startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+2026/05/10 22:05:06.263 20970 20987 Debug Unity UUID: 15fa0bdfeb18ddc8 => 04726d9a896dbcf2ecf887169d9e6053
+2026/05/10 22:05:06.276 20970 21023 Debug Unity Curl error 6: Could not resolve: engine-data.unity3d.com:443
+2026/05/10 22:05:06.282 20970 20980 Debug InputTransport Input channel constructed: 'ClientS', fd=184
+2026/05/10 22:05:06.288 20970 21025 Debug Unity Curl error 6: Could not resolve: cdp.cloud.unity3d.com:443
+2026/05/10 22:05:06.359 20970 20987 Info Unity [Boot] samsung SM-S901B | Android OS 16 / API-36 (BP2A.250605.031.A3/S901BXXSNGZD7) | Vulkan | 1080x2340 @ 480 dpi
+2026/05/10 22:05:06.359 20970 20987 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/05/10 22:05:06.359 20970 20987 Info Unity MobileBootstrap:Awake()
+2026/05/10 22:05:06.359 20970 20987 Info Unity 
+2026/05/10 22:05:06.361 20970 20987 Info Unity SetGameState: isLoading: false, mode: UNKNOWN, label: 0, quality: 0
+2026/05/10 22:05:06.365 20970 20987 Debug Unity Using NDK Choreographer.
+2026/05/10 22:05:06.366 20970 21025 Debug Unity Curl error 6: Could not resolve: config.uca.cloud.unity3d.com:443
+2026/05/10 22:05:06.376 20970 20970 Info BLASTBufferQueue_Java update, w= 1080 h= 2340 mName = VRI[UnityPlayerGameActivity]@f79a1cf mNativeObject= 0xb4000074ca3c50f0 sc.mNativeObject= 0xb40000747a3c5b90 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+2026/05/10 22:05:06.376 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=12 res=0x0 s={true 0xb4000074aa3dbf60} ch=false seqId=0
+2026/05/10 22:05:06.376 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf updateBoundsLayer: t=android.view.SurfaceControl$Transaction@a31dac1 sc=Surface(name=Bounds for - com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity@0)/@0xa272266 frame=6
+2026/05/10 22:05:06.376 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:06.398 20970 20987 Debug Unity Stopping Unity systrace
+2026/05/10 22:05:06.402 20970 21025 Debug Unity Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+2026/05/10 22:05:06.412 20970 20970 Info BLASTBufferQueue_Java update, w= 1080 h= 2340 mName = VRI[UnityPlayerGameActivity]@f79a1cf mNativeObject= 0xb4000074ca3c50f0 sc.mNativeObject= 0xb40000747a3c7990 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+2026/05/10 22:05:06.412 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=14 res=0x0 s={true 0xb4000074aa3dbf60} ch=false seqId=0
+2026/05/10 22:05:06.412 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf updateBoundsLayer: t=android.view.SurfaceControl$Transaction@a31dac1 sc=Surface(name=Bounds for - com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity@0)/@0xa272266 frame=7
+2026/05/10 22:05:06.412 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:06.445 20970 20987 Info Unity Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'GaussianDepthOfField'). PostProcessing render passes will not execute.
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.DepthOfFieldGaussianPostProcessPass:.ctor(Shader)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderer:.ctor(UniversalRendererData)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRendererData:Create()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/05/10 22:05:06.445 20970 20987 Info Unity 
+2026/05/10 22:05:06.445 20970 20987 Info Unity Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'GaussianDepthOfField'). PostProcessing render passes will not execute.
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.DepthOfFieldGaussianPostProcessPass:.ctor(Shader)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderer:.ctor(UniversalRendererData)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRendererData:Create()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/05/10 22:05:06.445 20970 20987 Info Unity 
+2026/05/10 22:05:06.445 20970 20987 Info Unity Shader 'Hidden/Universal Render Pipeline/BokehDepthOfField' is not supported or has been stripped from the build (in 'BokehDepthOfField'). PostProcessing render passes will not execute.
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.DepthOfFieldBokehPostProcessPass:.ctor(Shader)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderer:.ctor(UniversalRendererData)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRendererData:Create()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/05/10 22:05:06.445 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/05/10 22:05:06.445 20970 20987 Info Unity 
+2026/05/10 22:05:06.446 20970 20987 Info Unity Shader 'Hidden/Universal Render Pipeline/PaniniProjection' is not supported or has been stripped from the build (in 'PaniniProjection'). PostProcessing render passes will not execute.
+2026/05/10 22:05:06.446 20970 20987 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/05/10 22:05:06.446 20970 20987 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/05/10 22:05:06.446 20970 20987 Info Unity UnityEngine.Rendering.Universal.PaniniProjectionPostProcessPass:.ctor(Shader)
+2026/05/10 22:05:06.446 20970 20987 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/05/10 22:05:06.446 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderer:.ctor(UniversalRendererData)
+2026/05/10 22:05:06.446 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRendererData:Create()
+2026/05/10 22:05:06.446 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/05/10 22:05:06.446 20970 20987 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/05/10 22:05:06.446 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/05/10 22:05:06.446 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/05/10 22:05:06.446 20970 20987 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/05/10 22:05:06.446 20970 20987 Info Unity 
+2026/05/10 22:05:06.502 20970 21044 Info GSC SID[0] : 273f1127b272f00b, Kind: 1, time : 3.094 ms
+2026/05/10 22:05:06.530 20970 21044 Info GSC SID[1] : c4ab97accd184323, Kind: 0, time : 27.360 ms
+2026/05/10 22:05:06.588 20970 21044 Info GSC SID[2] : 958d2b4b166e841d, Kind: 1, time : 51.527 ms
+2026/05/10 22:05:06.605 20970 21044 Info GSC SID[3] : 1d6061a39697526e, Kind: 0, time : 16.518 ms
+2026/05/10 22:05:06.614 20970 20987 Debug Unity InitializeOrResetSwapChain 1080x2340 hdr=0 samples=1
+2026/05/10 22:05:06.631 20970 21059 Info SwappyDisplayManager Terminating looper thread
+2026/05/10 22:05:06.631 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:06.631 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:06.639 20970 20987 Error SwappyDisplayManager dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376646346426544, -5476376650373246800]]"],nativeLibraryDirectories=[/system/lib64, /system/system_ext/lib64]]] couldn't find "libgame.so"
+2026/05/10 22:05:06.640 20970 21111 Info SwappyDisplayManager Starting looper thread
+2026/05/10 22:05:07.302 20970 21025 Debug Unity Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+2026/05/10 22:05:09.305 20970 21025 Debug Unity Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+2026/05/10 22:05:11.442 20970 21024 Debug Unity Curl error 6: Could not resolve host: engine-data.unity3d.com
+2026/05/10 22:05:16.016 20970 20987 Debug Unity Changing screen orientation to LandscapeLeft.
+2026/05/10 22:05:16.088 20970 20970 Info Unity onConfigurationChanged
+2026/05/10 22:05:16.092 20970 20987 Info Unity Handle cmd APP_CMD_CONFIG_CHANGED(9)
+2026/05/10 22:05:16.093 20970 20970 Info InsetsController onStateChanged: host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 2340, 1080), mDisplayCutout=DisplayCutout{insets=Rect(81, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 512 - 81, 568), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333 V 27 H 9.333333333333333 V 0 H 0 Z @dp} rotation={1} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(2238, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(2238, 978)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 978)}]}  mRoundedCornerFrame=Rect(0, 0 - 2340, 1080), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(2208, 0 - 2340, 90) rotation=1}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=1 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {7 mType=displayCutout mFrame=[0,0][81,1080] mVisible=true mFlags= mSideHint=LEFT mBoundingRects=null}, InsetsSource: {1b840001 mType=navigationBars mFrame=[2196,0][2340,1080] mVisible=false mFlags= mSideHint=RIGHT mBoundingRects=null}, InsetsSource: {1b840004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {1b840005 mType=mandatorySystemGestures mFrame=[2196,0][2340,1080] mVisible=true mFlags= mSideHint=RIGHT mBoundingRects=null}, InsetsSource: {1b840006 mType=tappableElement mFrame=[2196,0][2340,1080] mVisible=true mFlags= mSideHint=RIGHT mBoundingRects=null}, InsetsSource: {1b840024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {7de00000 mType=statusBars mFrame=[0,0][2340,90] mVisible=false mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00005 mType=mandatorySystemGestures mFrame=[0,0][2340,90] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00006 mType=tappableElement mFrame=[0,0][2340,90] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+2026/05/10 22:05:16.093 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf handleResized, frames=ClientWindowFrames{frame=[0,0][2340,1080] display=[0,0][2340,1080] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=true attachedFrameChanged=false configChanged=true displayChanged=false compatScaleChanged=false dragResizingChanged=false
+2026/05/10 22:05:16.093 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf handleResized mSyncSeqId = 0
+2026/05/10 22:05:16.093 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportNextDraw android.view.ViewRootImpl.handleResized:2983 android.view.ViewRootImpl.-$$Nest$mhandleResized:0 android.view.ViewRootImpl$W.resized:14082 android.app.servertransaction.WindowStateResizeItem.execute:93 android.app.servertransaction.WindowStateTransactionItem.execute:62 
+2026/05/10 22:05:16.124 20970 20970 Verbose GameActivity onImeInsetsChanged from Text Listener
+2026/05/10 22:05:16.126 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+2026/05/10 22:05:16.129 20970 20970 Info InsetsSourceConsumer applyRequestedVisibilityToControl: visible=false, type=statusBars, host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity
+2026/05/10 22:05:16.129 20970 20970 Info BLASTBufferQueue_Java update, w= 2340 h= 1080 mName = VRI[UnityPlayerGameActivity]@f79a1cf mNativeObject= 0xb4000074ca3c50f0 sc.mNativeObject= 0xb40000747a3c6f10 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+2026/05/10 22:05:16.130 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Relayout returned: old=(0,0,2340,1080) new=(0,0,2340,1080) relayoutAsync=false req=(2340,1080)0 dur=5 res=0x1 s={true 0xb4000074aa3dbf60} ch=false seqId=0
+2026/05/10 22:05:16.130 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf updateBoundsLayer: t=android.view.SurfaceControl$Transaction@a31dac1 sc=Surface(name=Bounds for - com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity@0)/@0xa272266 frame=8
+2026/05/10 22:05:16.130 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:16.130 20970 20970 Info SurfaceView 86161262 Changes: creating=false format=false size=true visible=false alpha=false hint=true left=false top=false z=false attached=true lifecycleStrategy=false
+2026/05/10 22:05:16.130 20970 20970 Info SurfaceView 86161262 Cur surface: Surface(name=null mNativeObject=-5476376645810131856)/@0xe2905f4
+2026/05/10 22:05:16.130 20970 20970 Debug SurfaceComposerClient setCornerRadius ## 522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0#3010 cornerRadius=0.000000
+2026/05/10 22:05:16.130 20970 20970 Info BLASTBufferQueue_Java update, w= 2340 h= 1080 mName = 522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0 mNativeObject= 0xb4000074ca3e8320 sc.mNativeObject= 0xb40000747a3c6a90 format= 4 caller= android.view.SurfaceView.setBufferSize:1703 android.view.SurfaceView.performSurfaceTransaction:1238 android.view.SurfaceView.updateSurface:1467 android.view.SurfaceView.setFrame:716 android.view.View.layout:26931 android.widget.FrameLayout.layoutChildren:345 
+2026/05/10 22:05:16.130 20970 20970 Info SV[86161262 UnityPlayerGameActivity] pST: sr = Rect(0, 0 - 2340, 1080) sw = 2340 sh = 1080
+2026/05/10 22:05:16.130 20970 20970 Info SV[86161262 UnityPlayerGameActivity] onSSPAndSRT: pl = 0 pt = 0 sx = 1.0 sy = 1.0
+2026/05/10 22:05:16.130 20970 20970 Debug SurfaceView 86161262 performSurfaceTransaction UI Thread position = [0, 0, 2340, 1080] surfaceSize = 2340x1080
+2026/05/10 22:05:16.130 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:16.130 20970 20970 Info SV[86161262 UnityPlayerGameActivity] updateSurface: mVisible = true mSurface.isValid() = true
+2026/05/10 22:05:16.130 20970 20970 Info SV[86161262 UnityPlayerGameActivity] updateSurface: mSurfaceCreated = true surfaceChanged = false visibleChanged = false
+2026/05/10 22:05:16.130 20970 20970 Info SurfaceView 86161262 surfaceChanged -- format=4 w=2340 h=1080
+2026/05/10 22:05:16.130 20970 20970 Info SV[86161262 UnityPlayerGameActivity] surfaceChanged (2340,1080) 2 #5 com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{522b76e VFE...... .F....ID 0,0-2340,1080 #7f080125 app:id/unitySurfaceView aid=1073741824}
+2026/05/10 22:05:16.131 20970 20970 Info SurfaceView 86161262 surfaceRedrawNeeded
+2026/05/10 22:05:16.131 20970 20970 Info SurfaceView 86161262 finishedDrawing
+2026/05/10 22:05:16.131 20970 20970 Verbose SurfaceView Layout: x=0 y=0 w=2340 h=1080, frame=Rect(0, 0 - 2340, 1080)
+2026/05/10 22:05:16.131 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+2026/05/10 22:05:16.131 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf Setup new sync=wmsSync-VRI[UnityPlayerGameActivity]@f79a1cf#6
+2026/05/10 22:05:16.131 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Creating new active sync group VRI[UnityPlayerGameActivity]@f79a1cf#7
+2026/05/10 22:05:16.136 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportDrawFinished seqId=0
+2026/05/10 22:05:16.138 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_RESIZED(3)
+2026/05/10 22:05:16.138 20970 20987 Debug Unity NativeWindow resized 2340x1080
+2026/05/10 22:05:16.138 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+2026/05/10 22:05:16.138 20970 20987 Info Unity Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+2026/05/10 22:05:16.143 20970 20987 Debug Unity InitializeOrResetSwapChain 2340x1080 hdr=0 samples=1
+2026/05/10 22:05:16.148 20970 21111 Info SwappyDisplayManager Terminating looper thread
+2026/05/10 22:05:16.149 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:16.149 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:16.161 20970 20987 Error SwappyDisplayManager dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376646346414448, -5476376650373231568]]"],nativeLibraryDirectories=[/system/lib64, /system/system_ext/lib64]]] couldn't find "libgame.so"
+2026/05/10 22:05:16.162 20970 21126 Info SwappyDisplayManager Starting looper thread
+2026/05/10 22:05:16.176 20970 20970 Info InsetsSourceConsumer applyRequestedVisibilityToControl: visible=false, type=navigationBars, host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity
+2026/05/10 22:05:16.200 20970 21044 Info GSC SID[4] : d9853cd7bb64c217, Kind: 1, time : 15.256 ms
+2026/05/10 22:05:16.204 20970 21044 Info GSC SID[5] : b2781ce0d45ae474, Kind: 0, time : 3.231 ms
+2026/05/10 22:05:17.458 20970 20987 Debug Unity Changing screen orientation to Portrait.
+2026/05/10 22:05:17.499 20970 20970 Info Unity onConfigurationChanged
+2026/05/10 22:05:17.500 20970 20970 Info InsetsController onStateChanged: host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333 V 27 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1b840001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=false mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {1b840005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {7de00000 mType=statusBars mFrame=[0,0][1080,81] mVisible=false mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+2026/05/10 22:05:17.500 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=true attachedFrameChanged=false configChanged=true displayChanged=false compatScaleChanged=false dragResizingChanged=false
+2026/05/10 22:05:17.500 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf handleResized mSyncSeqId = 0
+2026/05/10 22:05:17.500 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportNextDraw android.view.ViewRootImpl.handleResized:2983 android.view.ViewRootImpl.-$$Nest$mhandleResized:0 android.view.ViewRootImpl$W.resized:14082 android.app.servertransaction.WindowStateResizeItem.execute:93 android.app.servertransaction.WindowStateTransactionItem.execute:62 
+2026/05/10 22:05:17.502 20970 20987 Info Unity Handle cmd APP_CMD_CONFIG_CHANGED(9)
+2026/05/10 22:05:17.525 20970 20970 Verbose GameActivity onImeInsetsChanged from Text Listener
+2026/05/10 22:05:17.527 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+2026/05/10 22:05:17.529 20970 20970 Info InsetsSourceConsumer applyRequestedVisibilityToControl: visible=false, type=statusBars, host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity
+2026/05/10 22:05:17.530 20970 20970 Info BLASTBufferQueue_Java update, w= 1080 h= 2340 mName = VRI[UnityPlayerGameActivity]@f79a1cf mNativeObject= 0xb4000074ca3c50f0 sc.mNativeObject= 0xb40000747a3c45d0 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+2026/05/10 22:05:17.530 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=5 res=0x1 s={true 0xb4000074aa3dbf60} ch=false seqId=0
+2026/05/10 22:05:17.530 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf updateBoundsLayer: t=android.view.SurfaceControl$Transaction@a31dac1 sc=Surface(name=Bounds for - com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity@0)/@0xa272266 frame=9
+2026/05/10 22:05:17.530 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:17.530 20970 20970 Info SurfaceView 86161262 Changes: creating=false format=false size=true visible=false alpha=false hint=true left=false top=false z=false attached=true lifecycleStrategy=false
+2026/05/10 22:05:17.530 20970 20970 Info SurfaceView 86161262 Cur surface: Surface(name=null mNativeObject=-5476376645810131856)/@0xe2905f4
+2026/05/10 22:05:17.530 20970 20970 Debug SurfaceComposerClient setCornerRadius ## 522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0#3010 cornerRadius=0.000000
+2026/05/10 22:05:17.531 20970 20970 Info BLASTBufferQueue_Java update, w= 1080 h= 2340 mName = 522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0 mNativeObject= 0xb4000074ca3e8320 sc.mNativeObject= 0xb40000747a3c6a90 format= 4 caller= android.view.SurfaceView.setBufferSize:1703 android.view.SurfaceView.performSurfaceTransaction:1238 android.view.SurfaceView.updateSurface:1467 android.view.SurfaceView.setFrame:716 android.view.View.layout:26931 android.widget.FrameLayout.layoutChildren:345 
+2026/05/10 22:05:17.531 20970 20970 Info SV[86161262 UnityPlayerGameActivity] pST: sr = Rect(0, 0 - 1080, 2340) sw = 1080 sh = 2340
+2026/05/10 22:05:17.531 20970 20970 Info SV[86161262 UnityPlayerGameActivity] onSSPAndSRT: pl = 0 pt = 0 sx = 1.0 sy = 1.0
+2026/05/10 22:05:17.531 20970 20970 Debug SurfaceView 86161262 performSurfaceTransaction UI Thread position = [0, 0, 1080, 2340] surfaceSize = 1080x2340
+2026/05/10 22:05:17.531 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:17.531 20970 20970 Info SV[86161262 UnityPlayerGameActivity] updateSurface: mVisible = true mSurface.isValid() = true
+2026/05/10 22:05:17.531 20970 20970 Info SV[86161262 UnityPlayerGameActivity] updateSurface: mSurfaceCreated = true surfaceChanged = false visibleChanged = false
+2026/05/10 22:05:17.531 20970 20970 Info SurfaceView 86161262 surfaceChanged -- format=4 w=1080 h=2340
+2026/05/10 22:05:17.531 20970 20970 Info SV[86161262 UnityPlayerGameActivity] surfaceChanged (1080,2340) 2 #5 com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{522b76e VFE...... .F....ID 0,0-1080,2340 #7f080125 app:id/unitySurfaceView aid=1073741824}
+2026/05/10 22:05:17.531 20970 20970 Info SurfaceView 86161262 surfaceRedrawNeeded
+2026/05/10 22:05:17.531 20970 20970 Info SurfaceView 86161262 finishedDrawing
+2026/05/10 22:05:17.531 20970 20970 Verbose SurfaceView Layout: x=0 y=0 w=1080 h=2340, frame=Rect(0, 0 - 1080, 2340)
+2026/05/10 22:05:17.532 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+2026/05/10 22:05:17.532 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf Setup new sync=wmsSync-VRI[UnityPlayerGameActivity]@f79a1cf#9
+2026/05/10 22:05:17.532 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Creating new active sync group VRI[UnityPlayerGameActivity]@f79a1cf#10
+2026/05/10 22:05:17.535 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_RESIZED(3)
+2026/05/10 22:05:17.535 20970 20987 Debug Unity NativeWindow resized 1080x2340
+2026/05/10 22:05:17.536 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+2026/05/10 22:05:17.536 20970 20987 Info Unity Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+2026/05/10 22:05:17.536 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportDrawFinished seqId=0
+2026/05/10 22:05:17.540 20970 20987 Debug Unity InitializeOrResetSwapChain 1080x2340 hdr=0 samples=1
+2026/05/10 22:05:17.549 20970 21126 Info SwappyDisplayManager Terminating looper thread
+2026/05/10 22:05:17.549 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:17.549 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:17.558 20970 20987 Error SwappyDisplayManager dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376646346816752, -5476376650373188112]]"],nativeLibraryDirectories=[/system/lib64, /system/system_ext/lib64]]] couldn't find "libgame.so"
+2026/05/10 22:05:17.559 20970 21149 Info SwappyDisplayManager Starting looper thread
+2026/05/10 22:05:17.594 20970 20970 Info InsetsSourceConsumer applyRequestedVisibilityToControl: visible=false, type=navigationBars, host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity
+2026/05/10 22:05:19.261 20970 20987 Debug Unity Changing screen orientation to LandscapeLeft.
+2026/05/10 22:05:19.307 20970 20970 Info Unity onConfigurationChanged
+2026/05/10 22:05:19.308 20970 20987 Info Unity Handle cmd APP_CMD_CONFIG_CHANGED(9)
+2026/05/10 22:05:19.308 20970 20970 Info InsetsController onStateChanged: host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 2340, 1080), mDisplayCutout=DisplayCutout{insets=Rect(81, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 512 - 81, 568), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333 V 27 H 9.333333333333333 V 0 H 0 Z @dp} rotation={1} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(2238, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(2238, 978)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 978)}]}  mRoundedCornerFrame=Rect(0, 0 - 2340, 1080), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(2208, 0 - 2340, 90) rotation=1}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=1 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {7 mType=displayCutout mFrame=[0,0][81,1080] mVisible=true mFlags= mSideHint=LEFT mBoundingRects=null}, InsetsSource: {1b840001 mType=navigationBars mFrame=[2196,0][2340,1080] mVisible=false mFlags= mSideHint=RIGHT mBoundingRects=null}, InsetsSource: {1b840004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {1b840005 mType=mandatorySystemGestures mFrame=[2196,0][2340,1080] mVisible=true mFlags= mSideHint=RIGHT mBoundingRects=null}, InsetsSource: {1b840006 mType=tappableElement mFrame=[2196,0][2340,1080] mVisible=true mFlags= mSideHint=RIGHT mBoundingRects=null}, InsetsSource: {1b840024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {7de00000 mType=statusBars mFrame=[0,0][2340,90] mVisible=false mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00005 mType=mandatorySystemGestures mFrame=[0,0][2340,90] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00006 mType=tappableElement mFrame=[0,0][2340,90] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+2026/05/10 22:05:19.308 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf handleResized, frames=ClientWindowFrames{frame=[0,0][2340,1080] display=[0,0][2340,1080] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=true attachedFrameChanged=false configChanged=true displayChanged=false compatScaleChanged=false dragResizingChanged=false
+2026/05/10 22:05:19.308 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf handleResized mSyncSeqId = 0
+2026/05/10 22:05:19.308 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportNextDraw android.view.ViewRootImpl.handleResized:2983 android.view.ViewRootImpl.-$$Nest$mhandleResized:0 android.view.ViewRootImpl$W.resized:14082 android.app.servertransaction.WindowStateResizeItem.execute:93 android.app.servertransaction.WindowStateTransactionItem.execute:62 
+2026/05/10 22:05:19.311 20970 20970 Verbose GameActivity onImeInsetsChanged from Text Listener
+2026/05/10 22:05:19.313 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+2026/05/10 22:05:19.323 20970 20970 Info InsetsSourceConsumer applyRequestedVisibilityToControl: visible=false, type=statusBars, host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity
+2026/05/10 22:05:19.323 20970 20970 Info BLASTBufferQueue_Java update, w= 2340 h= 1080 mName = VRI[UnityPlayerGameActivity]@f79a1cf mNativeObject= 0xb4000074ca3c50f0 sc.mNativeObject= 0xb40000747a3c7990 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+2026/05/10 22:05:19.323 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Relayout returned: old=(0,0,2340,1080) new=(0,0,2340,1080) relayoutAsync=false req=(2340,1080)0 dur=12 res=0x1 s={true 0xb4000074aa3dbf60} ch=false seqId=0
+2026/05/10 22:05:19.323 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf updateBoundsLayer: t=android.view.SurfaceControl$Transaction@a31dac1 sc=Surface(name=Bounds for - com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity@0)/@0xa272266 frame=10
+2026/05/10 22:05:19.323 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:19.324 20970 20970 Info SurfaceView 86161262 Changes: creating=false format=false size=true visible=false alpha=false hint=true left=false top=false z=false attached=true lifecycleStrategy=false
+2026/05/10 22:05:19.324 20970 20970 Info SurfaceView 86161262 Cur surface: Surface(name=null mNativeObject=-5476376645810131856)/@0xe2905f4
+2026/05/10 22:05:19.324 20970 20970 Debug SurfaceComposerClient setCornerRadius ## 522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0#3010 cornerRadius=0.000000
+2026/05/10 22:05:19.324 20970 20970 Info BLASTBufferQueue_Java update, w= 2340 h= 1080 mName = 522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0 mNativeObject= 0xb4000074ca3e8320 sc.mNativeObject= 0xb40000747a3c6a90 format= 4 caller= android.view.SurfaceView.setBufferSize:1703 android.view.SurfaceView.performSurfaceTransaction:1238 android.view.SurfaceView.updateSurface:1467 android.view.SurfaceView.setFrame:716 android.view.View.layout:26931 android.widget.FrameLayout.layoutChildren:345 
+2026/05/10 22:05:19.324 20970 20970 Info SV[86161262 UnityPlayerGameActivity] pST: sr = Rect(0, 0 - 2340, 1080) sw = 2340 sh = 1080
+2026/05/10 22:05:19.324 20970 20970 Info SV[86161262 UnityPlayerGameActivity] onSSPAndSRT: pl = 0 pt = 0 sx = 1.0 sy = 1.0
+2026/05/10 22:05:19.324 20970 20970 Debug SurfaceView 86161262 performSurfaceTransaction UI Thread position = [0, 0, 2340, 1080] surfaceSize = 2340x1080
+2026/05/10 22:05:19.324 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:19.324 20970 20970 Info SV[86161262 UnityPlayerGameActivity] updateSurface: mVisible = true mSurface.isValid() = true
+2026/05/10 22:05:19.324 20970 20970 Info SV[86161262 UnityPlayerGameActivity] updateSurface: mSurfaceCreated = true surfaceChanged = false visibleChanged = false
+2026/05/10 22:05:19.324 20970 20970 Info SurfaceView 86161262 surfaceChanged -- format=4 w=2340 h=1080
+2026/05/10 22:05:19.324 20970 20970 Info SV[86161262 UnityPlayerGameActivity] surfaceChanged (2340,1080) 2 #5 com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{522b76e VFE...... .F....ID 0,0-2340,1080 #7f080125 app:id/unitySurfaceView aid=1073741824}
+2026/05/10 22:05:19.324 20970 20970 Info SurfaceView 86161262 surfaceRedrawNeeded
+2026/05/10 22:05:19.325 20970 20970 Info SurfaceView 86161262 finishedDrawing
+2026/05/10 22:05:19.325 20970 20970 Verbose SurfaceView Layout: x=0 y=0 w=2340 h=1080, frame=Rect(0, 0 - 2340, 1080)
+2026/05/10 22:05:19.325 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+2026/05/10 22:05:19.325 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf Setup new sync=wmsSync-VRI[UnityPlayerGameActivity]@f79a1cf#12
+2026/05/10 22:05:19.325 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Creating new active sync group VRI[UnityPlayerGameActivity]@f79a1cf#13
+2026/05/10 22:05:19.330 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportDrawFinished seqId=0
+2026/05/10 22:05:19.345 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_RESIZED(3)
+2026/05/10 22:05:19.345 20970 20987 Debug Unity NativeWindow resized 2340x1080
+2026/05/10 22:05:19.345 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+2026/05/10 22:05:19.345 20970 20987 Info Unity Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+2026/05/10 22:05:19.346 20970 20987 Debug Unity InitializeOrResetSwapChain 2340x1080 hdr=0 samples=1
+2026/05/10 22:05:19.355 20970 21149 Info SwappyDisplayManager Terminating looper thread
+2026/05/10 22:05:19.355 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:19.355 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:19.365 20970 20987 Error SwappyDisplayManager dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376646346511216, -5476376650373208272]]"],nativeLibraryDirectories=[/system/lib64, /system/system_ext/lib64]]] couldn't find "libgame.so"
+2026/05/10 22:05:19.365 20970 21174 Info SwappyDisplayManager Starting looper thread
+2026/05/10 22:05:19.404 20970 20970 Info InsetsSourceConsumer applyRequestedVisibilityToControl: visible=false, type=navigationBars, host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity
+2026/05/10 22:05:20.704 20970 20987 Debug Unity Changing screen orientation to Portrait.
+2026/05/10 22:05:20.750 20970 20970 Info Unity onConfigurationChanged
+2026/05/10 22:05:20.751 20970 20970 Info InsetsController onStateChanged: host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333 V 27 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1b840001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=false mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {1b840005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {1b840024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {7de00000 mType=statusBars mFrame=[0,0][1080,81] mVisible=false mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {7de00006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+2026/05/10 22:05:20.751 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=true attachedFrameChanged=false configChanged=true displayChanged=false compatScaleChanged=false dragResizingChanged=false
+2026/05/10 22:05:20.751 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf handleResized mSyncSeqId = 0
+2026/05/10 22:05:20.751 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportNextDraw android.view.ViewRootImpl.handleResized:2983 android.view.ViewRootImpl.-$$Nest$mhandleResized:0 android.view.ViewRootImpl$W.resized:14082 android.app.servertransaction.WindowStateResizeItem.execute:93 android.app.servertransaction.WindowStateTransactionItem.execute:62 
+2026/05/10 22:05:20.752 20970 20987 Info Unity Handle cmd APP_CMD_CONFIG_CHANGED(9)
+2026/05/10 22:05:20.753 20970 20970 Verbose GameActivity onImeInsetsChanged from Text Listener
+2026/05/10 22:05:20.762 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+2026/05/10 22:05:20.765 20970 20970 Info InsetsSourceConsumer applyRequestedVisibilityToControl: visible=false, type=statusBars, host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity
+2026/05/10 22:05:20.766 20970 20970 Info BLASTBufferQueue_Java update, w= 1080 h= 2340 mName = VRI[UnityPlayerGameActivity]@f79a1cf mNativeObject= 0xb4000074ca3c50f0 sc.mNativeObject= 0xb40000747a3c6f10 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+2026/05/10 22:05:20.766 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=12 res=0x1 s={true 0xb4000074aa3dbf60} ch=false seqId=0
+2026/05/10 22:05:20.766 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf updateBoundsLayer: t=android.view.SurfaceControl$Transaction@a31dac1 sc=Surface(name=Bounds for - com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity@0)/@0xa272266 frame=11
+2026/05/10 22:05:20.766 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:20.766 20970 20970 Info SurfaceView 86161262 Changes: creating=false format=false size=true visible=false alpha=false hint=true left=false top=false z=false attached=true lifecycleStrategy=false
+2026/05/10 22:05:20.766 20970 20970 Info SurfaceView 86161262 Cur surface: Surface(name=null mNativeObject=-5476376645810131856)/@0xe2905f4
+2026/05/10 22:05:20.766 20970 20970 Debug SurfaceComposerClient setCornerRadius ## 522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0#3010 cornerRadius=0.000000
+2026/05/10 22:05:20.766 20970 20970 Info BLASTBufferQueue_Java update, w= 1080 h= 2340 mName = 522b76e SurfaceView[com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]@0 mNativeObject= 0xb4000074ca3e8320 sc.mNativeObject= 0xb40000747a3c6a90 format= 4 caller= android.view.SurfaceView.setBufferSize:1703 android.view.SurfaceView.performSurfaceTransaction:1238 android.view.SurfaceView.updateSurface:1467 android.view.SurfaceView.setFrame:716 android.view.View.layout:26931 android.widget.FrameLayout.layoutChildren:345 
+2026/05/10 22:05:20.766 20970 20970 Info SV[86161262 UnityPlayerGameActivity] pST: sr = Rect(0, 0 - 1080, 2340) sw = 1080 sh = 2340
+2026/05/10 22:05:20.767 20970 20970 Info SV[86161262 UnityPlayerGameActivity] onSSPAndSRT: pl = 0 pt = 0 sx = 1.0 sy = 1.0
+2026/05/10 22:05:20.767 20970 20970 Debug SurfaceView 86161262 performSurfaceTransaction UI Thread position = [0, 0, 1080, 2340] surfaceSize = 1080x2340
+2026/05/10 22:05:20.767 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf applyTransactionOnDraw applyImmediately
+2026/05/10 22:05:20.767 20970 20970 Info SV[86161262 UnityPlayerGameActivity] updateSurface: mVisible = true mSurface.isValid() = true
+2026/05/10 22:05:20.767 20970 20970 Info SV[86161262 UnityPlayerGameActivity] updateSurface: mSurfaceCreated = true surfaceChanged = false visibleChanged = false
+2026/05/10 22:05:20.767 20970 20970 Info SurfaceView 86161262 surfaceChanged -- format=4 w=1080 h=2340
+2026/05/10 22:05:20.767 20970 20970 Info SV[86161262 UnityPlayerGameActivity] surfaceChanged (1080,2340) 2 #5 com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{522b76e VFE...... .F....ID 0,0-1080,2340 #7f080125 app:id/unitySurfaceView aid=1073741824}
+2026/05/10 22:05:20.767 20970 20970 Info SurfaceView 86161262 surfaceRedrawNeeded
+2026/05/10 22:05:20.767 20970 20970 Info SurfaceView 86161262 finishedDrawing
+2026/05/10 22:05:20.767 20970 20970 Verbose SurfaceView Layout: x=0 y=0 w=1080 h=2340, frame=Rect(0, 0 - 1080, 2340)
+2026/05/10 22:05:20.768 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+2026/05/10 22:05:20.768 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf Setup new sync=wmsSync-VRI[UnityPlayerGameActivity]@f79a1cf#15
+2026/05/10 22:05:20.768 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf Creating new active sync group VRI[UnityPlayerGameActivity]@f79a1cf#16
+2026/05/10 22:05:20.773 20970 20970 Debug VRI[UnityPlayerGameActivity]@f79a1cf reportDrawFinished seqId=0
+2026/05/10 22:05:20.788 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_RESIZED(3)
+2026/05/10 22:05:20.788 20970 20987 Debug Unity NativeWindow resized 1080x2340
+2026/05/10 22:05:20.788 20970 20987 Info Unity Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+2026/05/10 22:05:20.789 20970 20987 Info Unity Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+2026/05/10 22:05:20.790 20970 20987 Debug Unity InitializeOrResetSwapChain 1080x2340 hdr=0 samples=1
+2026/05/10 22:05:20.798 20970 21174 Info SwappyDisplayManager Terminating looper thread
+2026/05/10 22:05:20.800 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:20.800 20970 20987 Debug i.mobilegamedev [is_supported_usage] Other IPs besides the CPU do not support the format 59
+2026/05/10 22:05:20.810 20970 20987 Error SwappyDisplayManager dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376646346539440, -5476376650373257104]]"],nativeLibraryDirectories=[/system/lib64, /system/system_ext/lib64]]] couldn't find "libgame.so"
+2026/05/10 22:05:20.811 20970 21198 Info SwappyDisplayManager Starting looper thread
+2026/05/10 22:05:20.841 20970 20970 Info InsetsSourceConsumer applyRequestedVisibilityToControl: visible=false, type=navigationBars, host=com.ahmedsekhni.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity
+2026/05/10 22:05:21.245 20970 21023 Debug Unity Curl error 6: Could not resolve host: engine-data.unity3d.com
+2026/05/10 22:05:30.224 20970 20976 Info i.mobilegamedev Background concurrent mark compact GC freed 4122KB AllocSpace bytes, 6(248KB) LOS objects, 88% free, 3301KB/27MB, paused 1.128ms,1.577ms total 108.621ms
+2026/05/10 22:05:30.224 20970 20977 Debug InputTransport Input channel destroyed: 'ClientS', fd=184
+2026/05/10 22:05:39.308 20970 21025 Debug Unity Curl error 6: Could not resolve: cdp.cloud.unity3d.com:443
+2026/05/10 22:05:41.430 20970 21024 Debug Unity Curl error 6: Could not resolve: engine-data.unity3d.com:443
+2026/05/10 22:06:02.005 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf ViewPostIme pointer 0
+2026/05/10 22:06:02.007 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[UnityPlayerGameActivity]@f79a1cf
+2026/05/10 22:06:02.045 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf ViewPostIme pointer 1
+2026/05/10 22:06:02.381 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf ViewPostIme pointer 0
+2026/05/10 22:06:02.563 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf ViewPostIme pointer 1
+2026/05/10 22:06:02.707 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf ViewPostIme pointer 0
+2026/05/10 22:06:02.846 20970 20970 Info VRI[UnityPlayerGameActivity]@f79a1cf ViewPostIme pointer 1
