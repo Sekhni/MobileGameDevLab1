@@ -29,6 +29,7 @@ public class TapSwipeInput : MonoBehaviour
             }
             else if (t.time - t.startTime < tapMax)
             {
+                if (LifecycleGuard.IsPaused) return;
                 // Tap could trigger a jump/action later if needed
             }
         }

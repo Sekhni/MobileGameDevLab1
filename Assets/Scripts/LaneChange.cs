@@ -36,12 +36,15 @@ public class LaneChange : MonoBehaviour
         {
             currentLane++;
             UpdateTargetPosition();
+            
         }
     }
 
     void UpdateTargetPosition()
     {
         float xOffset = (currentLane - 1) * laneWidth;
+     
         targetPosition = new Vector3(xOffset, transform.position.y, transform.position.z);
+        Haptics.Pulse();
     }
 }

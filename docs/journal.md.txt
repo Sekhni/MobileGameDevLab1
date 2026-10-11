@@ -1,0 +1,4 @@
+home it pause
+Pull the notification shade down and up it pause
+Screen off with the power button, back on  it pause
+Force stop from Settings, relaunch it pause
