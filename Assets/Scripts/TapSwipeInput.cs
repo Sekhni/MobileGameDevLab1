@@ -8,11 +8,26 @@ public class TapSwipeInput : MonoBehaviour
     public float swipeDp = 50f;     // distance in dp, not pixels
     public float tapMax = 0.3f;     // seconds
 
-    void OnEnable() => EnhancedTouchSupport.Enable();
-    void OnDisable() => EnhancedTouchSupport.Disable();
+    void OnEnable()
+    {
+        EnhancedTouchSupport.Enable();
+#if UNITY_EDITOR
+        TouchSimulation.Enable();   // lets mouse drags in the Game view act as touches
+#endif
+    }
+
+    void OnDisable()
+    {
+#if UNITY_EDITOR
+        TouchSimulation.Disable();
+#endif
+        EnhancedTouchSupport.Disable();
+    }
 
     void Update()
     {
+        if (LifecycleGuard.IsPaused) return;   // ignore swipes and taps while paused
+
         foreach (var t in Touch.activeTouches)
         {
             if (t.phase != TouchPhase.Ended) continue;
@@ -29,7 +44,6 @@ public class TapSwipeInput : MonoBehaviour
             }
             else if (t.time - t.startTime < tapMax)
             {
-                if (LifecycleGuard.IsPaused) return;
                 // Tap could trigger a jump/action later if needed
             }
         }

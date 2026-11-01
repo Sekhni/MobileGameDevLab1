@@ -14,7 +14,14 @@ public class LifecycleGuard : MonoBehaviour
     }
 
     // Notification shade, permission dialog, on-screen keyboard.
-    void OnApplicationFocus(bool f) { if (!f) SetPaused(true); }
+    // Skipped in the Editor so clicking the Inspector/Console during Play
+    // doesn't freeze the game with timeScale 0.
+    void OnApplicationFocus(bool f)
+    {
+#if !UNITY_EDITOR
+        if (!f) SetPaused(true);
+#endif
+    }
 
     public void SetPaused(bool value)  // Resume button passes false
     {

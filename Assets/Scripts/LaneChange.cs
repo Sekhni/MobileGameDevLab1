@@ -43,8 +43,9 @@ public class LaneChange : MonoBehaviour
     void UpdateTargetPosition()
     {
         float xOffset = (currentLane - 1) * laneWidth;
-     
         targetPosition = new Vector3(xOffset, transform.position.y, transform.position.z);
+        Debug.Log("Lane " + currentLane + " on " + gameObject.name +
+                  " target " + targetPosition + " timeScale " + Time.timeScale);
         Haptics.Pulse();
     }
 }

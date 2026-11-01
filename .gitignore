@@ -74,3 +74,5 @@ InitTestScene*.unity*
 
 *.keystore
 *.jks
+# Profiler captures (large; the baseline one lives in docs/CA2/baseline)
+/[Pp]rofilerCaptures/
