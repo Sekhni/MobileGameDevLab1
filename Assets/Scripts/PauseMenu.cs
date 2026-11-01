@@ -17,5 +17,6 @@ public class PauseMenu : MonoBehaviour
         guard.SetPaused(!LifecycleGuard.IsPaused);
     }
 
+    public void OnPausePressed() => guard.SetPaused(true);    // on-screen pause button
     public void OnResumePressed() => guard.SetPaused(false);
 }
