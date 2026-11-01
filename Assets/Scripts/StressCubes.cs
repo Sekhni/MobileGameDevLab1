@@ -1,16 +1,19 @@
 using UnityEngine;
 
 // Week 3 worst case: 200 pooled cubes created once at start and moved every
-// frame. Only needed if the game itself has nothing heavy to profile yet.
+// frame. Off by default (steady gameplay); the Stress button toggles it on
+// for the worst case.
 public class StressCubes : MonoBehaviour
 {
     public int count = 200;
     public float spacing = 1.5f;
     public float amplitude = 1f;
     public float speed = 2f;
+    public bool startEnabled = false;
 
     Transform[] _cubes;
     Vector3[] _home;
+    bool _on;
 
     void Start()
     {
@@ -27,10 +30,21 @@ public class StressCubes : MonoBehaviour
             _cubes[i] = go.transform;
             _home[i] = p;
         }
+        SetOn(startEnabled);
+    }
+
+    public void Toggle() => SetOn(!_on);   // bind to the Stress button
+
+    void SetOn(bool on)
+    {
+        _on = on;
+        for (int i = 0; i < _cubes.Length; i++) _cubes[i].gameObject.SetActive(on);
+        Debug.Log(on ? "[Stress] on" : "[Stress] off");
     }
 
     void Update()
     {
+        if (!_on) return;
         float t = Time.time * speed;
         for (int i = 0; i < _cubes.Length; i++)
         {

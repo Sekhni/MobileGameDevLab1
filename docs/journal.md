@@ -53,3 +53,44 @@ Worst case profiled: SampleScene with the 200-cube stress test (StressCubes), 32
 - Draw calls total: 118 events in the Main Camera render + 1 GUI | Pass with the most draws: (RP 2:0) RenderLoop.Draw (94 draws)
 - Those 94 draws use Hidden/InternalErrorShader (the cubes render magenta): CreatePrimitive's default material has no URP shader in the build, so the draws are not SRP-batched. Next biggest: BloomDownsample (10), BloomUpsample (5).
 - Screenshot: docs/CA2/baseline/w03-gpu-pass.png
+
+## Week 3 Lab B - Frame pacing and performance baseline (2026-11-01)
+
+### Part A - Frame target
+- MobileBootstrap: Application.targetFrameRate = 60, QualitySettings.vSyncCount = 0 (unchanged, already correct)
+- Player Settings > Optimized Frame Pacing: on (androidUseSwappy = 1)
+- FrameTimeSampler added to Bootstrap. Release build frame time sits flat at ~16.7 ms in every state.
+- Note: logcat shows a Swappy (frame pacing) class-loader error line on this phone; frame times were still locked to 16.7 ms, so pacing works.
+
+### Part B - Release build frame times (0.1.1 / versionCode 3, Builds/MyGame-0.1.1.apk)
+Second [Baseline] line in each state (600 frames each):
+- Menu (pause menu open): avg 16.68 ms, p99 16.74 ms (12:46:51)
+- Steady gameplay (cubes off): avg 16.68 ms, p99 16.73 ms (12:45:29)
+- Worst case (Stress on, 200 cubes): avg 16.69 ms, p99 16.73 ms (12:47:31)
+- Display: 120 Hz panel, Motion smoothness = Adaptive; dumpsys shows the game overridden to 60 Hz (frameRateOverride 60), as expected before the Week 7 High FPS toggle.
+- Log screenshot: docs/CA2/baseline/w03-sampler-log.png
+- Added a Stress button (bottom-right, also in release) so steady and worst case can be switched in the same build.
+
+### Part C - GC allocations per frame (Dev build, steady gameplay, 22 s)
+- GC Allocated in Frame: 51 B (3 allocations of 17 B)
+- Allocating markers (all from the Input System package, none from game scripts):
+  1. PreUpdate.NewInputUpdate > NativeInputSystem.NotifyBeforeUpdate() [Invoke] - 17 B
+  2. FixedUpdate.NewInputFixedUpdate > NativeInputSystem.NotifyBeforeUpdate() [Invoke] - 17 B
+  3. PostLateUpdate.PlayerSendFrameStarted > FrameEvents.NewInputBeforeRenderUpdate - 17 B
+- GC.Collect: none in the 22 s steady capture (GarbageCollector line flat at 0)
+
+### Part D - Peak memory and rendering (worst case)
+- Peak Total Committed Memory (Unity 6 name for Total Reserved), Dev build, ~65 s with Stress on: 342.4 MB (Max shown by the Memory module); tracked memory 191 MB in use / 0.60 GB reserved
+- TOTAL PSS (release build, after ~4 min of play): 313,503 kB = 306.2 MB (Native Heap 52.8 MB, Graphics 98.8 MB, Code 56.7 MB, Java Heap 3.7 MB)
+- Worst frame (frame 2792): SetPass 24 | Batches 24 | Triangles 3.4k | Vertices 6.3k
+
+### Part E - Cold start and APK size
+- Device: SM-S901B, Android 16, SoC s5e9925 (Exynos 2200)
+- Cold starts (Displayed, ActivityTaskManager): 169 ms, 140 ms, 142 ms -> median 142 ms
+- First interactive: ~2.5 s ([Boot] log at 12:49:45.18 vs Displayed at 12:49:42.72 on cold start 3; no loading screen)
+- APK size: 43,572,837 bytes = 41.55 MB (Builds/MyGame-0.1.1.apk)
+
+### Throttling / notes
+- No throttling seen: frame times stayed at 16.68-16.71 ms for the whole ~4 min release session.
+- Worst-case p99 16.73 ms vs the 60 fps budget of 16.67 ms: on budget (the extra 0.06 ms is vsync timing jitter, not missed frames). No MDA budget file found in the repo yet; compare against it when it exists.
+- Measured on commit 8f7231a plus the Lab B changes.
