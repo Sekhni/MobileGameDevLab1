@@ -1,4 +1,4 @@
-# Endless Runner — Option 
+# Pixel Sprint (Endless Runner)
 
 Mobile Game Development (A12581). Unity 6.6 (6000.6.0f1), Android, sideloaded APK.
 
@@ -39,7 +39,12 @@ Mobile Game Development (A12581). Unity 6.6 (6000.6.0f1), Android, sideloaded AP
    Expect `Success`, `versionCode=2`, `versionName=0.2.0`. If an older debug-signed build is on the phone you get `INSTALL_FAILED_UPDATE_INCOMPATIBLE`: run `adb uninstall com.ahmedsekhni.mobilegamedev` and install again.
 6. Launch: `adb shell monkey -p com.ahmedsekhni.mobilegamedev 1`, logs with `adb logcat -s Unity`.
 
+Release builds have no INTERNET permission (`Assets/Scripts/Editor/StripInternetPermission.cs`) and Unity Diagnostics is disabled; see `docs/CA1/privacy-statement.md`.
+
 Helper: `Builds\w04-release.ps1` does steps 5–6 and saves the output (Builds/ is not tracked).
+
+## CA1 pack
+`docs/CA1/`: install-proof.txt, device-screenshot.png, device-matrix.md, store-assets-checklist.md, descriptions.md, privacy-statement.md, mda-onepager.md. Dev journal: `docs/dev-journal.md`. APK: `releases/MyGame-0.2.0-arm64.apk`. Tag: `v0.2.0-ca1`.
 
 ## Device targets
 - Minimum API level: 26 (Android 8.0)
@@ -50,3 +55,5 @@ Helper: `Builds\w04-release.ps1` does steps 5–6 and saves the output (Builds/ 
 ## Versioning note
 Week 3 test builds used 0.1.1 / versionCode 3. For this lab the release is 0.2.0 / versionCode 2 as the lab sheet specifies; it installs because the switch from the debug key to the release key required uninstalling the old build first. Every later release raises versionCode from 2.
 
+## AI assistance
+Claude (Anthropic) was used during Weeks 2–4 for:  drafting the CA1 store checklist, listing copy and privacy statement from my build evidence; debugging the lane-change input, editor setup scripts (Week3Setup, Week4Setup, UILayoutFix), the UI layout fix, profiling-session help and helper PowerShell scripts for adb measurements. Measurements were taken on my own device; I reviewed all code and notes.
