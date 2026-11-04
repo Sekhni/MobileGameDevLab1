@@ -76,3 +76,7 @@ InitTestScene*.unity*
 *.jks
 # Profiler captures (large; the baseline one lives in docs/CA2/baseline)
 /[Pp]rofilerCaptures/
+
+# Week 4: release APKs are tracked (CA1 hand-in)
+!/releases/*.apk
+/releases/*_BackUpThisFolder_ButDontShipItWithYourGame/

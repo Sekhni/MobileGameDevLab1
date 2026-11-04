@@ -1,2 +1,13 @@
+2026-11-04 17:52 | Samsung Galaxy S22 (SM-S901B), Android 16, serial ...R82A | releases/MyGame-0.2.0-arm64.apk (43,576,021 bytes, release-signed, IL2CPP, ARM64)
+
+> adb install -r releases/MyGame-0.2.0-arm64.apk
+Performing Streamed Install
+Success
+
+> adb shell dumpsys package com.ahmedsekhni.mobilegamedev | Select-String version
+versionCode=2 minSdk=26 targetSdk=36
+versionName=0.2.0
+
+--- Week 2 (0.1.0) install, kept for history ---
 Performing Streamed Install
 Success
