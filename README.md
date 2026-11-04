@@ -55,5 +55,4 @@ Helper: `Builds\w04-release.ps1` does steps 5–6 and saves the output (Builds/ 
 ## Versioning note
 Week 3 test builds used 0.1.1 / versionCode 3. For this lab the release is 0.2.0 / versionCode 2 as the lab sheet specifies; it installs because the switch from the debug key to the release key required uninstalling the old build first. Every later release raises versionCode from 2.
 
-## AI assistance
-Claude (Anthropic) was used during Weeks 2–4 for:  drafting the CA1 store checklist, listing copy and privacy statement from my build evidence; debugging the lane-change input, editor setup scripts (Week3Setup, Week4Setup, UILayoutFix), the UI layout fix, profiling-session help and helper PowerShell scripts for adb measurements. Measurements were taken on my own device; I reviewed all code and notes.
+
